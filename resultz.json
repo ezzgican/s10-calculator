@@ -1,0 +1,49 @@
+{
+  "stats": "10 passed, 1 failed out of 11",
+  "tests": [
+    {
+      "name": "Başlangıç operations değeri + olarak doğru ayarlanmış",
+      "state": "pass"
+    },
+    {
+      "name": "Başlangıç memory değeri 0 olarak doğru ayarlanmış",
+      "state": "pass"
+    },
+    {
+      "name": "Başlangıç total değeri 0 olarak doğru ayarlanmış",
+      "state": "pass"
+    },
+    {
+      "name": "1, 2, 3 rakamına tıklanınca ekranda 123 sayısını gösteriyor",
+      "state": "pass"
+    },
+    {
+      "name": "CE ekranı sıfırlıyor",
+      "state": "pass"
+    },
+    {
+      "name": "operatörlere tıklanınca ekranda 0 görünüyor.",
+      "state": "fail"
+    },
+    {
+      "name": "operatörlere tıklanınca Operation: metni doğru işlemi gösteriyor.",
+      "state": "pass"
+    },
+    {
+      "name": "Memory add(M+) butonu ekrandaki değeri hafızaya(memory) aktarıyor.",
+      "state": "pass"
+    },
+    {
+      "name": "Memory clear(MC) butonu memorydeki değeri sıfırlıyor.",
+      "state": "pass"
+    },
+    {
+      "name": "Memory recall(MR) butonu memorydeki değeri ekrana getiriyor.",
+      "state": "pass"
+    },
+    {
+      "name": "= ile işlemin sonucu ekrana geliyor. (23-15 = 8)",
+      "state": "pass"
+    }
+  ]
+}
