@@ -1,5 +1,5 @@
 {
-  "stats": "10 passed, 1 failed out of 11",
+  "stats": "11 passed, 0 failed out of 11",
   "tests": [
     {
       "name": "Başlangıç operations değeri + olarak doğru ayarlanmış",
@@ -23,7 +23,7 @@
     },
     {
       "name": "operatörlere tıklanınca ekranda 0 görünüyor.",
-      "state": "fail"
+      "state": "pass"
     },
     {
       "name": "operatörlere tıklanınca Operation: metni doğru işlemi gösteriyor.",

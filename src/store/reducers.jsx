@@ -12,7 +12,8 @@ export const initialState = {
   total: 0,
   temp: 0,
   operation: "+",
-  memory: 0
+  memory: 0,
+  showZero: false,
 };
 
 const calculateResult = (num1, num2, operation) => {
@@ -31,17 +32,19 @@ export const reducer = (state, action) => {
       const newTemp = state.temp * 10 + action.payload;
       return {
         ...state,
-        temp: newTemp
+        temp: newTemp,
+        showZero: false
       };
     }
 
     case CHANGE_OPERATION: {
       const newTotal = calculateResult(state.total, state.temp, state.operation);
-      return {
-        ...state,
-        operation: action.payload,
-        total: newTotal,
-        temp: 0
+  return {
+    ...state,
+    operation: action.payload,
+    total: newTotal,
+    temp: 0,
+    showZero: true
       };
     }
 

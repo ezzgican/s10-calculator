@@ -50,7 +50,7 @@ function handleMemoryClear() {
 
       <div className="mt-12 mx-auto w-75">
         <form name="Cal">
-          <TotalDisplay value={state.temp !== 0 ? state.temp : state.total} />
+          <TotalDisplay value={state.showZero ? 0 : (state.temp !== 0 ? state.temp : state.total)} />
           <div className="flex justify-between bg-black text-white text-sm px-3 py-2">
             <span id="operation">
               <b>Operation:</b> {state.operation}
